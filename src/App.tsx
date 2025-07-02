@@ -3,14 +3,14 @@ import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen.tsx';
 import MarketsScreen from './screens/MarketsScreen.tsx';
 import TradingScreen from './screens/TradingScreen.tsx';
-import ProfileScreen from './screens/ProfileScreen.tsx';
+import ProfileScreen from './screens/ProfileScreen';
 import BottomNav from './components/BottomNav.tsx';
 import ProtectedRoute from './components/ProtectedRoute.tsx';
 import { useAuth } from './contexts/AuthContext.tsx';
 import { Loader, Send } from 'lucide-react';
 import AdminRoute from './components/AdminRoute.tsx';
 import AdminScreen from './screens/AdminScreen.tsx';
-import HistoryScreen from './screens/HistoryScreen.tsx';
+import HistoryScreen from './screens/HistoryScreen';
 import { useAppContext } from './contexts/AppContext.tsx';
 
 const TelegramFAB = () => {
